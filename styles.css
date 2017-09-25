@@ -1,0 +1,127 @@
+html{height:98%;}
+body{height:98%;}
+#content {
+
+    width: 800px;
+    height: 98%;
+    margin: 0 auto;
+    padding-top: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+header{
+    text-align:center;
+}
+.h1{
+    background:url("https://www.amsterdam.nl/publish/pages/395993/940_start_foto_frits_van_eck.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    opacity: 0.7;
+    border-radius:40px;
+}
+.h1 h1 {
+    color: rgba(255,255,255,0.8);
+    font-family:serif;
+    font-size:44px;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0.95;
+    border-bottom:2px solid;
+    border-color: black;
+    border-radius:40px;
+    margin-bottom: 10px;
+}
+nav ul {
+    border-top: double 3px #8e8e8e;
+    text-align: center;
+}
+nav ul li{
+    float:left;
+    padding:0 30px;
+    list-style-type:none;
+    border-bottom: solid 1px #8e8e8e
+}
+nav ul li a {
+    font-size: 20pt;
+    font-weight: bold;
+    color: rgb(86, 122, 199);
+    text-decoration: none;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.70);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-transition: all 1ms ease-in-out;
+    -moz-transition: all 1ms ease-in-out;
+    -o-transition: all 1ms ease-in-out;
+    transition: all 1ms ease-in-out;
+    opacity: 0.5;
+}
+nav ul li a:active{
+    color: lightblue;
+}
+h1:active{
+    color: lightblue;
+}
+nav ul li a:hover,
+nav ul li a:focus
+{
+
+    background: rgb(86,122,199);
+}
+
+h1{
+    border:1px solid;
+    border-color: black;
+}
+article{
+    float: left;
+    width: 540px;
+    height: 500px;
+    margin: 20px 0 0 0;
+    overflow: scroll;
+    padding: 0 0 0 0;
+    border: 1px solid #ddd;
+    background: -moz-linear-gradient(top, #94bae7 0%, #fff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#94bae7), to(#fff));
+
+}
+
+article header h2{
+    z-index: 1;
+    position: relative;
+    top: -80px;
+    left: 30px;
+    margin: 10px 0 0 0;
+    font-family: Arial sans-serif;
+    font-size: 1.5em;
+    color:#fff;
+    text-shadow: 5px 5px 10px #000;
+}
+.streep1 {
+    background:hsla(165, 35%, 50%, 1.0);
+    height: 100px;
+}
+
+.item {
+    margin: 0 0 20px 0;
+    font-family: Arial sans-serif;
+    font-size: 0.88em;
+    color:#4c4c4c;
+    line-height:1.6em;
+}
+h1:hover{
+     background-color: lightgray;
+     opacity: 0.8;
+ }
+h2:hover {
+    background-color: lightgray;
+    opacity: 0.5;
+}
+
+aside{
+    float:left;
+}
+
