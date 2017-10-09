@@ -1,11 +1,15 @@
-html{height:98%;}
-body{height:98%;}
-#content {
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("image3.jpg");
+}
+.container {
 
     width: 800px;
-    height: 98%;
-    margin: 0 auto;
-    padding-top: 0;
+    /*height: 98%;*/
+    padding-bottom: 15px;
+    margin: 0 auto 50px auto;
+    padding-top: 2px;
     padding-left: 15px;
     padding-right: 15px;
     -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
@@ -116,12 +120,78 @@ h1:hover{
      background-color: lightgray;
      opacity: 0.8;
  }
-h2:hover {
-    background-color: lightgray;
-    opacity: 0.5;
-}
+
 
 aside{
     float:left;
 }
+footer{
+    width: 800px;
+    height: 140px;
+    margin: 0;
+    background-color: transparent;
+    display: inline-block;
+    border:solid;
+    border-width: 2px;
+    -webkit-animation-name: example4; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: example4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@-webkit-keyframes example4 {
+    0% {border-color: darkblue;}
+    25% {border-color: forestgreen;}
+    50% {border-color: orange;}
+    75% {border-color: darkred;}
+    100% {border-color: darkblue;}
+}
+@keyframes example4 {
+     0% {border-color: darkblue;}
+     25% {border-color: forestgreen;}
+     50% {border-color: orange;}
+     75% {border-color: darkred;}
+     100% {border-color: darkblue;}
+ }
+.advert1{
+    width: 200px;
+    height: 120px;
+    border: dotted;
+    -webkit-animation-name: example5; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: example5;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@-webkit-keyframes example5 {
+    0% {border-color: darkblue;}
+    25% {border-color: forestgreen;}
+    50% {border-color: orange;}
+    75% {border-color: darkred;}
+    100% {border-color: darkblue;}
+}
+@keyframes example5 {
+    0% {border-color: darkblue;}
+    25% {border-color: forestgreen;}
+    50% {border-color: orange;}
+    75% {border-color: darkred;}
+    100% {border-color: darkblue;}
+}
+
+ul {
+    display: inline-block;
+}
+
+ul li {
+    display: block;
+}
+.p1 p{
+    margin-top:5px;
+    font-family: Arial sans-serif;
+    -webkit-text-fill-color: gray;
+}
+
+
 
